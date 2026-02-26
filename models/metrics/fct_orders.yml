@@ -73,6 +73,9 @@ semantic_models:
       - name: min_order_value
         expr: order_total
         agg: min
+      - name: min_order_value
+        agg: min
+        expr: order_total
 
 metrics:
   #SIMPLE TYPE METRICS
